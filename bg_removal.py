@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import pandas
 
 # Load the image
 img = cv2.imread(img_path)
