@@ -1,0 +1,15 @@
+Input Features:
+
+1) Presence of veins or embryo structures (To confirm fertility along with the embryo matter)
+and also Size of the veins or embryo structures (To verify if they're actual veins or just cracks)
+Applying edge detection algorithms (Canny edge detector) to identify edges and boundaries within the egg images.
+Using blob detection algorithms to identify regions of interest that may correspond to veins or embryo structures.
+
+2) Average color intensity of the egg, Color distribution (histogram of color channels)
+Differences in color intensity and distribution may indicate variations in eggshell transparency, which can be associated with fertility
+
+3) Mean, standard deviation, skewness, and kurtosis of pixel intensities and their Histogram features
+Statistical features of pixel intensities can capture overall trends and distributions in the image, which may vary between fertile and infertile eggs. For instance, statistical moments like skewness and kurtosis can characterize the shape of intensity histograms, potentially revealing differences between the two classes.
+
+4) Local features like SIFT (Scale-Invariant Feature Transform) keypoints and descriptors SURF (Speeded Up Robust Features) keypoints and descriptors
+These keypoints can capture distinctive regions or structures within the egg images, which may correspond to important fertility-related characteristics such as vein patterns or embryo formations.
